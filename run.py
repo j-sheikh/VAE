@@ -6,11 +6,11 @@ from pytorch_lightning.callbacks import ModelCheckpoint
 from pytorch_lightning.loggers import TensorBoardLogger
 
 
-folder_path = '/media/jannik/media/thesis/GitHub/hulc/dataset/task_ABC_D/training'
-checkpoint_path = '/home/jannik/media/GitHub/model_jannik/AE/checkpoints'
+folder_path = 'xxx'
+checkpoint_path = 'xxx'
 os.makedirs(checkpoint_path, exist_ok=True)
 
-tb_logger = TensorBoardLogger(save_dir="/media/jannik/media/thesis/GitHub/model_jannik/AE/logs", name="vae_depth_images")
+tb_logger = TensorBoardLogger(save_dir="xxx", name="vae_depth_images")
 
 lr = 1e-4
 batch_size = 64
